@@ -1,0 +1,58 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "jest.config.json",
+  "apps": {
+    "ios.debug": {
+      "type": "ios.app",
+      "build": "cd ../desafio/ios && xcodebuild -workspace Desafio.xcworkspace -scheme Desafio -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13' -derivedDataPath ./build -quiet",
+      "binaryPath": "../desafio/ios/build/Build/Products/Debug-iphonesimulator/Desafio.app"
+    },
+    "ios.release": {
+      "type": "ios.app",
+      "build": "cd ../desafio/ios && xcodebuild -workspace Desafio.xcworkspace -scheme Desafio -configuration Release -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 13' -derivedDataPath ./build -quiet",
+      "binaryPath": "../desafio/ios/build/Build/Products/Release-iphonesimulator/Desafio.app"
+    },
+    "android.debug": {
+      "type": "android.apk",
+      "build": "cd ../desafio/android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug",
+      "binaryPath": "../desafio/android/app/build/outputs/apk/debug/app-debug.apk"
+    },
+    "android.release": {
+      "type": "android.apk",
+      "build": "cd ../desafio/android && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release",
+      "binaryPath": "../desafio/android/app/build/outputs/apk/release/app-release.apk"
+    }
+  },
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 13"
+      }
+    },
+    "emulator": {
+      "type": "android.emulator",
+      "device": {
+        "avdName": "Pixel_4a_API_30"
+      }
+    }
+  },
+  "configurations": {
+    "ios.sim.release": {
+      "device": "simulator",
+      "app": "ios.release"
+    },
+    "ios.sim.debug": {
+      "device": "simulator",
+      "app": "ios.debug"
+    },
+    "android.emu.release": {
+      "device": "emulator",
+      "app": "android.release"
+    },
+    "android.emu.debug": {
+      "device": "emulator",
+      "app": "android.debug"
+    }
+  }
+}

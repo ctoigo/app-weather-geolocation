@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "desafio": "apps/desafio",
+    "desafio-e2e": "apps/desafio-e2e"
+  }
+}
