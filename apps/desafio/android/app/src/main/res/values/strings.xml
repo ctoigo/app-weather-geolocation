@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Desafio</string>
     <!-- Complete with API KEY for Google Maps usage -->
-    <string name="API_KEY_MAPS">AIzaSyC4uPvQz3_n_TklF--qyrIrKVA7w3IgSe4</string>
-    <string name="BUGSNAG_API_KEY">3f97c2dfdbb9844b1a3ee5ffa1cf7b59</string>
+    <string name="API_KEY_MAPS">-----</string>
+    <string name="BUGSNAG_API_KEY">----</string>
 </resources>
