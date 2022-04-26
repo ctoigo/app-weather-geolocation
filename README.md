@@ -4,6 +4,11 @@ Projeto desenvolvido em React Native utilizando o NX para poder gerenciar melhor
 
 <p style="text-align: center;"><img src="https://github.com/ctoigo/app-weather-geolocation/blob/main/tela-principal.png" width="450"></p>
 
+
+[![CI status][github-action-image]][github-action-url] [![codecov][codecov-image]][codecov-url] [![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
+
+[![Renovate status][renovate-image]][renovate-dashboard-url] [![Total alerts][lgtm-image]][lgtm-url] [![][bundlesize-js-image]][unpkg-js-url] [![][bundlesize-css-image]][unpkg-css-url]
+
 ## Versão do Node
 
 Versão de desenvolvimento do Node 16
