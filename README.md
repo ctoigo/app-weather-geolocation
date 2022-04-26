@@ -24,5 +24,4 @@ Precisa habilitar as API KEY do Google maps para poder rodar e apresentar os map
 
 ## Cartão de estatísticas do GitHub
 
-[![Chrystian Toigo GitHub stats](https://github-readme-stats.vercel.app/api?username=ctoigo&show_icons=true)]
-[![Informações do projeto](https://github-readme-stats.vercel.app/api/pin/?username=ctoigo&repo=app-weather-geolocation)]
+(https://github-readme-stats.vercel.app/api?username=ctoigo&show_icons=true) (https://github-readme-stats.vercel.app/api/pin/?username=ctoigo&repo=app-weather-geolocation)]
