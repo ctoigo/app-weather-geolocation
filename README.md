@@ -68,5 +68,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Chrystian Toigo 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://avatars.githubusercontent.com/u/2913382?v=4)](https://br.linkedin.com/in/chrystian-toigo-02089731) 
-[![Gmail Badge](https://avatars.githubusercontent.com/u/2913382?v=4)](mailto:ctoigo@gmail.com)
+![Linkedin Badge](https://br.linkedin.com/in/chrystian-toigo-02089731) 
+![Gmail Badge](mailto:ctoigo@gmail.com)
